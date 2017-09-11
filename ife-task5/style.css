@@ -1,0 +1,125 @@
+body{
+  font-family: "黑体";
+  font-size: 14px;
+  margin: 0px;
+  border: 0px;
+  background: #DEDEDE;
+  min-width: 750px;
+}
+.header{
+  height: 70px;
+  width: 100%;
+  background: #333333;
+  display: table;
+  vertical-align: middle;
+}
+.header span{
+  display: table-cell;
+  vertical-align: middle;
+  height: 70px;
+}
+.header span img{
+  margin-left: 35px;
+  cursor: pointer;
+}
+nav ul{
+  float: right;
+  margin: 0px;
+  padding: 0px;
+}
+nav ul li{
+  line-height: 70px;
+  float: left;
+  margin-right: 20px;
+}
+nav ul li a{
+  color: #FFF;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color:gray;
+}
+article{
+  margin-top: 40px;
+  background-color: #FFF;
+  margin-left: 40px;
+  margin-right: 450px;
+  padding: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px #848484;
+}
+aside{
+  background: #fff;
+  float: right;
+  width: 350px;
+  margin-top: 40px;
+  margin-right: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px 2px #848484;
+}
+input[type='submit']{
+	width:100%;
+	height:45px;
+	background-color: #4876FF;
+	border: 1px solid #4876FF;
+	border-radius: 8px;
+	font-weight: 800;
+	color: #000;
+}
+article#article2 ul {
+	list-style: none;
+}
+article#article3 figure{
+	height: 120px;
+	width: 140px;
+	text-align: center;
+	border: 1px solid #aaa;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	display:inline-block;
+}
+article#article3 figure figcaption{
+	padding: 5px;
+}
+article#article4 table{
+	width:100%;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+h3{
+	border-left: 3px solid #ccc;
+}
+table .input-params{
+	vertical-align: top;
+	text-align: right;
+}
+article#article4 table td{
+	border: 1px solid #ccc;
+}
+article#article4 table thead{
+	border: 1px solid #ccc;
+	color: #fff;
+	background-color: #000;
+}
+article#article4 table tbody{
+	border:1px solid #ccc;
+	color: #000;
+	background-color:#fff; 
+}
+article#article4 table tfoot{
+	border:1px solid #ccc;
+	color: #000;
+	background-color: #ccc;
+}
+
+footer{
+	height:60px;
+	width:100%;
+	background: #333333;	
+	text-align: center;
+}
+footer span{
+	height: 60px;
+	line-height: 60px;
+}
